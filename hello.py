@@ -29,3 +29,5 @@ name()
 random_exp = [1, 2, 3]
 # Gauname random varianta
 print(random.choice(random_exp))
+
+# Keima
