@@ -13,3 +13,7 @@ raise SyntaxError("Sintakses klaida")
 my_list = ["one"]
 # Listo elemento pasiekimas
 print(my_list[0])
+
+# Funkcijos kurimas
+def name():
+    print("")
