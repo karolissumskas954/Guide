@@ -71,6 +71,21 @@ l = [5, 3, 7, 1, 4, 4, 2, 10]
 l = merge_sort(l)
 print(f"Sorted list: {l}")
 
+# Class making
+
+class Employee:
+
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + "." + last + "@company.com"
+
+    def fullname(self):
+        return f"{self.first} {self.last}"
+
+
+
 # Stack
 
 class Stack:
